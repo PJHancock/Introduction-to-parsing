@@ -50,9 +50,7 @@ unzip tests.zip
 This will extract the test files and run the full test suite automatically.
 
 ## Notes
-Tests are designed to run from the project root
-Each run_tests.sh script is self-contained
-No external test framework is required
+Tests are designed to run from the project root. Each run_tests.sh script is self-contained, i.e. no external test framework is required
 
 ## Goal
 
