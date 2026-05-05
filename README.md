@@ -38,3 +38,22 @@ To run tests:
 ```bash
 git clone https://github.com/PJHancock/Introduction-to-parsing
 cd Introduction-to-parsing
+```
+
+Then for a given project:
+
+```bash
+unzip tests.zip
+./run_tests.sh
+```
+
+This will extract the test files and run the full test suite automatically.
+
+## Notes
+Tests are designed to run from the project root
+Each run_tests.sh script is self-contained
+No external test framework is required
+
+## Goal
+
+To provide a simple, hands-on way to learn parsing through small examples and runnable tests.
